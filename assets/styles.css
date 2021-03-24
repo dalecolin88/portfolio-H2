@@ -16,8 +16,9 @@
 }
 
 
-body {
-    
+body 
+{
+    background-color: lightskyblue;
     /* background-size: cover; */
 }
 
@@ -136,8 +137,4 @@ footer h1 {
     color:darkcyan;
     font-size: 30px;
     transition: 0.8s;
-}
-
-section .content .about-Me, .work, .resume {
-    
 }
