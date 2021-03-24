@@ -7,11 +7,12 @@
 
 
 
-.About-Me img, .work img, .Resume img {
+.about-Me img, .work img, .resume img {
     /* max-height: 200px; */
     /* background-size: cover; */
     height: 25%;
     width: 25%;
+   
 }
 
 
@@ -29,6 +30,8 @@ body {
     width: 60%;
     display: inline-block;
     margin-left: 20px;
+    background-color: mediumturquoise;
+    margin-bottom: 20px;
 }
 
 .btn{
@@ -133,4 +136,8 @@ footer h1 {
     color:darkcyan;
     font-size: 30px;
     transition: 0.8s;
+}
+
+section .content .about-Me, .work, .resume {
+    
 }
