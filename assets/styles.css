@@ -7,32 +7,36 @@
 
 
 
-.about-Me img, .work img, .resume img {
+.about-me img, .work img, .resume img {
     /* max-height: 200px; */
     /* background-size: cover; */
     height: 25%;
     width: 25%;
-   
+}
+
+.about-me, .work, .resume {
+    padding: 100px;
+    background-color: oldlace;
 }
 
 
-body 
-{
+
+body {
     background-color: lightskyblue;
     /* background-size: cover; */
 }
 
-.container{
+.container {
     text-align: right;
     margin-top: auto;
 }
 
 .content {
-    width: 60%;
+    width: 100%;
+    height: 180px;
     display: inline-block;
     margin-left: 20px;
-    background-color: mediumturquoise;
-    margin-bottom: 20px;
+    margin-bottom: ;
 }
 
 .btn{
@@ -49,6 +53,7 @@ body
 
 .float-left {
     float:left;
+    padding-top: 25px;
     margin-right: 25px;
 }
 
@@ -98,6 +103,7 @@ nav div ul li {
     background-size: cover;
 }
 
+
 footer h1 {
     text-align: center;
     padding-top: 5px;
@@ -138,3 +144,6 @@ footer h1 {
     font-size: 30px;
     transition: 0.8s;
 }
+
+fig
+    
