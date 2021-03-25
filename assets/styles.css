@@ -1,6 +1,4 @@
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -8,14 +6,13 @@
 
 
 .about-me img, .work img, .resume img {
-    /* max-height: 200px; */
-    /* background-size: cover; */
+    display: block;
     height: 25%;
     width: 25%;
 }
 
 .about-me, .work, .resume {
-    padding: 100px;
+    padding-top: 10px;
     background-color: oldlace;
 }
 
@@ -33,7 +30,7 @@ body {
 
 .content {
     width: 100%;
-    height: 180px;
+    height: 100px;
     display: inline-block;
     margin-left: 20px;
     margin-bottom: ;
@@ -49,6 +46,10 @@ body {
 
 .btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover {
     color: grey;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .float-left {
@@ -119,7 +120,7 @@ footer h1 {
 }
 
 .footer-social-icons {
-    width: 100%;
+    width: 100%;S
     height: auto;
     margin: auto;
 }
